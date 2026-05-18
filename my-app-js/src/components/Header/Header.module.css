@@ -1,0 +1,38 @@
+
+.nav {
+    border-bottom: 1px solid rgba(0, 65, 102, 0.2);
+    padding: 16px 24px;
+}
+
+.header {
+    font-size: 12px;
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(0, 65, 102, 0.1);
+}
+
+.menuButtons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.menuButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 11px;
+}
+
+.menuButton button {
+    border: none;
+    background: none;
+    color: #002033;
+    font: inherit;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 20px;
+}

@@ -1,0 +1,202 @@
+
+
+
+header {
+    font-size: 12px;
+    height: 60px;
+    background: #fff;
+}
+body {
+    background-color: #e8f5fb;
+}
+
+nav {
+    border-bottom: 1px solid rgba(0, 65, 102, 0.2);
+    text-align: left;
+  
+}
+
+.menubuttons ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menubutton {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.menubutton a {
+    position: relative;
+    vertical-align: middle;
+}
+
+
+#firstLetter {
+    margin-left: 20px;
+}
+
+.headline {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #002033;
+    margin-left: 260px;
+}
+
+.whiteBlock {
+    border-radius: 8px;
+    width: 1200px;
+    height: 248px;
+    background: #fff;
+    margin-left: 240px;
+}
+
+.circle {
+    margin-left: 70px;
+    border-radius: 100%;
+    stroke-width: 16px;
+    padding-top: 40px;
+    height: 40px;
+    stroke: #24c38e;
+    display: flex;
+
+}
+.textinsideblock {
+    margin-left: -105px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flexbox;
+    top: 40px;
+}
+
+.mainBlock {
+    display: inline-block;
+    height: 660px;
+    width: 660px;
+    margin-left: 440px;
+    margin-bottom: 220px;
+    top: -20px;
+    position: relative;
+}
+
+#littletextblock {
+    font-size: 12px;
+    color: gray;
+}
+
+.thisButton {
+    border-radius: 4px;
+    padding: 0px 12px 0px 16px;
+    margin-top: 50px;
+    margin-left: 720px;
+    width: 140px;
+    height: 32px;
+    background: rgba(0, 66, 105, 0.07);
+}
+
+
+.secondBlocks {
+    border-radius: 8px;
+    width: 1200px;
+    height: 348px;
+    background: #a9a9a9;
+    margin-left: 240px;
+}
+
+
+#HeaderTExt {
+    /* display: inline; */
+    margin-left: 40px;
+    padding-top: 20px;
+    display: block;
+}
+
+#hideContinued {
+    border-radius: 4px;
+    padding: 0px 16px;
+    display: block;
+    margin-left: 340px;
+    margin-top: -50px;
+    width: 164px;
+    height: 32px;
+    background: rgba(0, 66, 105, 0.07);
+}
+
+
+.littlewhiteblock {
+    margin-top: 40px;
+    width: 348px;
+    height: 195px;
+    display: inline-block;
+    background-color:white;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+.idkHowToNameThat {
+    margin-left: 20px;
+    padding-top: -10px;
+    display: block;
+}
+
+.grayTextLite {
+    color: gray;
+    font-size: 12px;
+    margin-left: 22px;
+    margin-top: -15px;
+}
+
+.littleTextHH {
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: -10px;
+}
+
+
+#selectedButton {
+    margin-left: 20px;
+    border: 1px solid #0078d2;
+    border-radius: 8px;
+    padding: 0px 20px 0px 16px;
+    width: 178px;
+    height: 40px;
+}
+
+.blueButton {
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    width: 171px;
+    height: 40px;
+    background: #0078d2;
+}
+
+.selectro {
+    border: 1px solid rgba(0, 66, 105, 0.28);
+    border-radius: 4px;
+    width: 615px;
+    height: 40px;
+    margin-left: 240px;
+}
+
+.littralySelectedButton {
+    
+    border-radius: 4px;
+    padding: 0px 20px;
+    width: 65px;
+    height: 40px;
+    background: rgba(0, 66, 105, 0.07);
+}
+
+.notSelectedButton {
+    margin-left: 5px;
+    border-radius: 4px;
+    padding: 0px 20px;
+    width: 128px;
+    height: 40px;
+}
+
+.notWhiteBlock {
+    margin-left: 240px;
+}

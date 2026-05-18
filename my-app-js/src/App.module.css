@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+:root {
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+body {
+    font-family: var(--font-mono);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    background-color: #e8f5fb;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+
+.main {
+    padding: 24px 0;
+}
+
+.section {
+    margin-top: 32px;
+    background-color: #e8f5fb;
+    
+}
+
+.headline {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #002033;
+    font-weight: bold;
+    margin: 0 0 20px 250px;
+    
+}
+
+.whiteBlock {
+    border-radius: 8px;
+    max-width: 1400px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+
+
+
+.secondBlock {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 8px 24px;
+    text-align: right;
+}
+
+.secondaryButton {
+    border-radius: 4px;
+    background: rgba(0, 66, 105, 0.07);
+    border: none;
+    color: #002033;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+.secondBlocks {
+    border-radius: 8px;
+    width: auto;
+    max-width: 1200px;
+    background: #f1f5f8;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.lightButton {
+    border-radius: 4px;
+    border: none;
+    background: rgba(0, 66, 105, 0.07);
+    color: #002033;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    min-width: 1400px;
+}
+
+
+.circle {
+    position: relative;
+    min-width: 170px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle svg {
+    display: block;
+}
+
+
+
+
+.notWhiteBlock {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notWhiteBlock + .notWhiteBlock {
+    margin-top: 24px;
+}

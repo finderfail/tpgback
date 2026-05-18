@@ -1,0 +1,31 @@
+.filterRow {
+    border: 1px solid rgba(0, 66, 105, 0.28);
+    border-radius: 4px;
+    width: auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background: #f1f5f8;
+}
+
+.littralySelectedButton,
+.notSelectedButton {
+    border-radius: 4px;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.littralySelectedButton {
+    background: rgba(0, 66, 105, 0.07);
+    color: #002033;
+}
+
+.notSelectedButton {
+    background: #fff;
+    color: #002033;
+    border: 1px solid rgba(0, 66, 105, 0.15);
+}
