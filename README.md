@@ -11,11 +11,12 @@ cd my-app-js
 
 ```
 npm run frontend:dev
-
+```
 
 for backend
 ```
 cd backend
-
+```
 ```
 npm run start:dev
+```
