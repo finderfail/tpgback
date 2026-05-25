@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { CardsController } from '../app.controller.js';
+import { CardsController } from './cards.controller.js';
 import { CardsService } from './cards.service.js';
 
 

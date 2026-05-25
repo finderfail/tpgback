@@ -23,12 +23,12 @@ export class AppController {
 //   }
 // }
 
-@Controller('info')
-export class CardsController {
-  constructor(private readonly cardsService: CardsService) {}
+// @Controller('info')
+// export class CardsController {
+//   constructor(private readonly cardsService: CardsService) {}
 
-  @Get()
-  async getCards() {
-    return this.cardsService.getCards();
-  }
-}
+//   @Get()
+//   async getCards() {
+//     return this.cardsService.getCards();
+//   }
+// }
